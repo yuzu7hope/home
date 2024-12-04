@@ -1,7 +1,7 @@
 /* General Styles */
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f4f4f9;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif; /* フォントを変更 */
+  background-color: #f8d7da; /* 薄いピンクの背景色 */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,11 +14,11 @@ body {
 }
 
 h1, h2 {
-  color: #333;
+  color: #5c2b45; /* 濃いピンク系 */
 }
 
 a {
-  color: #3498db;
+  color: #e74c3c; /* リンクの色を赤系に変更 */
   text-decoration: none;
 }
 
@@ -28,8 +28,8 @@ a:hover {
 
 /* Header Section */
 header {
-  background-color: #2c3e50;
-  color: white;
+  background-color: #f8d7da; /* ヘッダーの背景を薄いピンク */
+  color: #5c2b45; /* ヘッダーの文字色を濃いピンク */
   padding: 40px 20px;
   text-align: center;
 }
@@ -63,7 +63,7 @@ main {
 }
 
 .skills li {
-  background-color: #ecf0f1;
+  background-color: #ecf0f1; /* 薄いグレー系の背景 */
   margin: 5px 0;
   padding: 10px;
   border-radius: 5px;
@@ -71,8 +71,8 @@ main {
 
 /* Footer Section */
 footer {
-  background-color: #2c3e50;
-  color: white;
+  background-color: #f8d7da; /* フッターの背景を薄いピンク */
+  color: #5c2b45; /* フッターの文字色を濃いピンク */
   text-align: center;
   padding: 10px;
   margin-top: 40px;
