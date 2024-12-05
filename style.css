@@ -37,7 +37,7 @@ header {
 .header-with-bg {
   background-image: url(flower2.jpg); 
   background-size: cover;
-  background-position: center;
+  background-position: 20% top;
   background-repeat: no-repeat;
   color: white;
   padding: 20px;
