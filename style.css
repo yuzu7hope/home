@@ -45,6 +45,16 @@ a:hover {
   margin-bottom: 0; /* pタグの下部余白を縮める */
 }
 
+.about {
+  margin-bottom: 20px; /* BiographyとEducationの間の余白 */
+  border-bottom: 1px solid #ddd; /* 薄い線を追加 */
+  padding-bottom: 20px; /* 線と内容との余白 */
+}
+
+.education-item {
+  margin-top: 0; /* Educationの開始位置 */
+}
+
 
 
 
