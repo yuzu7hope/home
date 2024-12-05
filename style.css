@@ -31,15 +31,15 @@ a:hover {
 header {
   padding: 0;
   margin: 0;
-  height: 50vh;
   text-align: center;
 }
 
 .header-with-bg {
   background-image: url(flower2.jpg); 
   background-size: cover;
-  background-position: 20% top;
+  background-position: center center;
   background-repeat: no-repeat;
+  height: 50vh;
   color: white;
   padding: 20px;
 }
@@ -48,6 +48,13 @@ header {
   margin: 0;
   color: #4e2a1f; /* 濃い茶色の色コード */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden; /* 横スクロールの防止 */
 }
 
 header h1 {
