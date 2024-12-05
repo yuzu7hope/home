@@ -77,6 +77,7 @@ header, .header-with-bg {
 .header-with-bg {
   height: 50vh;
   background-image: url(flower2.jpg);
+  background-color: transparent; /* 追加 */
 }
 
 .header-content h1, .header-content h2 {
