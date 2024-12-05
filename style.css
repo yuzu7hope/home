@@ -81,3 +81,18 @@ footer {
 footer p {
   margin: 0;
 }
+
+.header-with-bg {
+  background-image: url('flower.jpg'); /* 画像のパスを指定 */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 20px;
+}
+
+.header-content h1, .header-content h2 {
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
