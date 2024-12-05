@@ -35,6 +35,23 @@ a:hover {
   text-decoration: underline;
 }
 
+.education-item h3 {
+  margin-bottom: 5px; /* h3とpの間隔を縮める */
+}
+
+.education-item p {
+  line-height: 1.3; /* pタグ内の行間を調整 */
+  margin-top: 0; /* pタグの上部余白を縮める */
+  margin-bottom: 0; /* pタグの下部余白を縮める */
+}
+
+
+
+
+
+
+
+
 /* Header Section */
 header, .header-with-bg {
   width: 100%;
