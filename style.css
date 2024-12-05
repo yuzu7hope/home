@@ -83,7 +83,7 @@ footer p {
 }
 
 .header-with-bg {
-  background-image: url('flower.jpg'); /* 画像のパスを指定 */
+  background-image: url('images/flower.jpg'); /* 画像のパスを指定 */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
