@@ -13,7 +13,7 @@ body, html {
 /* General Styles */
 body {
   font-family: 'Zen Kaku Gothic Antique', sans-serif;
-  background-color: #ffffff;
+  background-color: #f8d7da;
   padding-top: 60px; /* ナビゲーションバーの高さ */
 }
 
@@ -85,6 +85,9 @@ header, .header-with-bg {
 }
 
 .header-with-bg {
+  position: relative;
+  top: -20px; /* 上に20px移動 */
+  text-align: center;
   height: 50vh;
   background-image: url(flower2.jpg);
 }
