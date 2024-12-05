@@ -55,6 +55,12 @@ a:hover {
   margin-top: 0; /* Educationの開始位置 */
 }
 
+/* プロフィール用のスタイル */
+.田中柚希 p {
+  line-height: normal; /* 行間の設定をデフォルトに */
+  margin-top: 0; /* 上部余白を無くす */
+  margin-bottom: 0; /* 下部余白を無くす */
+}
 
 
 
