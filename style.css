@@ -83,7 +83,7 @@ footer p {
 }
 
 .header-with-bg {
-  background-image: url('images/flower.jpg'); /* 画像のパスを指定 */
+  background-image: url('https://raw.githubusercontent.com/yuzuhope/yukitanaka/main/flower.jpg'); /* GitHubにホストされた画像のURL */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
