@@ -1,13 +1,20 @@
-/* General Styles */
+/* Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 body, html {
-  font-family: 'Zen Kaku Gothic Antique', sans-serif; /* フォントを変更 */
-  background-color: #ffffff; /* 背景色を白に変更 */
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   width: 100%;
   height: 100%;
-  overflow-x: hidden; /* 横スクロールの防止 */
+  overflow-x: hidden; /* 横スクロールを防止 */
+}
+
+/* General Styles */
+body {
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  background-color: #ffffff;
+  padding-top: 60px; /* ナビゲーションバーの高さ */
 }
 
 .container {
@@ -18,59 +25,48 @@ body, html {
 
 h1, h2 {
   margin: 0;
-  color: #5c2b45; /* 濃いピンク系 */
+  color: #5c2b45;
 }
 
 a {
-  color: #e74c3c; /* リンクの色を赤系に変更 */
+  color: #e74c3c;
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: underline;
 }
 
 /* Header Section */
-
-header {
-  padding: 0;
-  margin: 0;
-  width: 100vw; /* ビューポート幅全体を使用 */
-  display: flex;
-  justify-content: center; /* 横方向で中央揃え */
-  align-items: center; /* 縦方向で中央揃え */
-  box-sizing: border-box; /* 余白を含めて要素のサイズを計算 */
-}
-
-.header-with-bg {
-  background-image: url(flower2.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100vw; /* ビューポート幅全体を使用 */
-  height: 50vh;
-  color: white;
+header, .header-with-bg {
+  width: 100%;
   padding: 0;
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-sizing: border-box;
-  overflow: hidden;
-  position: relative; /* 位置を明示的に指定 */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+}
+
+.header-with-bg {
+  height: 50vh;
+  background-image: url(flower2.jpg);
 }
 
 .header-content h1, .header-content h2 {
   margin: 0;
-  color: #4e2a1f; /* 濃い茶色の色コード */
+  color: #4e2a1f;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   text-align: center;
-  font-size: 3em; /* 文字サイズを3倍に設定（変更可能） */
+  font-size: 3em;
 }
 
 /* Main Content Section */
 main {
-  margin-top: 40px;
+  margin-top: 0; /* 余白を削除 */
 }
 
 .about, .skills, .contact {
@@ -88,7 +84,7 @@ main {
 }
 
 .skills li {
-  background-color: #ecf0f1; /* 薄いグレー系の背景 */
+  background-color: #ecf0f1;
   margin: 5px 0;
   padding: 10px;
   border-radius: 5px;
@@ -96,11 +92,10 @@ main {
 
 /* Footer Section */
 footer {
-  background-color: #f8d7da; /* フッターの背景を薄いピンク */
-  color: #5c2b45; /* フッターの文字色を濃いピンク */
+  background-color: #f8d7da;
+  color: #5c2b45;
   text-align: center;
   padding: 10px;
-  margin-top: 40px;
 }
 
 footer p {
@@ -110,10 +105,10 @@ footer p {
 /* ナビゲーションバーのスタイル */
 nav {
   background-color: #333;
-  overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
+  height: 60px;
   z-index: 1000;
 }
 
@@ -126,7 +121,7 @@ nav ul {
 }
 
 nav ul li {
-  display: inline;
+  margin: 0;
 }
 
 nav ul li a {
@@ -134,13 +129,7 @@ nav ul li a {
   color: white;
   text-align: center;
   padding: 14px 20px;
-  text-decoration: none;
 }
-
 nav ul li a:hover {
   background-color: #111;
-}
-
-body {
-  padding-top: 60px; /* ナビゲーションバーの高さを考慮して調整 */
 }
