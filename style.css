@@ -60,6 +60,7 @@ header {
   color: #4e2a1f; /* 濃い茶色の色コード */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   text-align: center;
+  font-size: 3em; /* 文字サイズを3倍に設定（変更可能） */
 }
 
 html, body {
