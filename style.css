@@ -1,7 +1,8 @@
 /* General Styles */
 body {
   font-family: 'Zen Kaku Gothic Antique', sans-serif; /* フォントを変更 */
-  background-color: #f8d7da; /* 薄いピンクの背景色 */
+  #background-color: #f8d7da; /* 薄いピンクの背景色 */
+  background-color: #ffffff; /* 背景色を白に変更 */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -45,6 +46,7 @@ header {
 
 .header-content h1, .header-content h2 {
   margin: 0;
+  color: #4e2a1f; /* 濃い茶色の色コード */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
