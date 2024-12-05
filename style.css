@@ -28,10 +28,22 @@ a:hover {
 
 /* Header Section */
 header {
-  background-color: #f8d7da; /* ヘッダーの背景を薄いピンク */
-  color: #5c2b45; /* ヘッダーの文字色を濃いピンク */
   padding: 40px 20px;
   text-align: center;
+}
+
+.header-with-bg {
+  background-image: url('https://raw.githubusercontent.com/yuzuhope/yukitanaka/main/flower.jpg'); /* GitHubにホストされた画像のURL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 20px;
+}
+
+.header-content h1, .header-content h2 {
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 header h1 {
@@ -82,17 +94,4 @@ footer p {
   margin: 0;
 }
 
-.header-with-bg {
-  background-image: url('https://raw.githubusercontent.com/yuzuhope/yukitanaka/main/flower.jpg'); /* GitHubにホストされた画像のURL */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
-  padding: 20px;
-}
-
-.header-content h1, .header-content h2 {
-  margin: 0;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-}
 
