@@ -15,6 +15,7 @@ body {
 }
 
 h1, h2 {
+  margin: 0;
   color: #5c2b45; /* 濃いピンク系 */
 }
 
@@ -28,6 +29,7 @@ a:hover {
 }
 
 /* Header Section */
+
 header {
   padding: 0;
   margin: 0;
