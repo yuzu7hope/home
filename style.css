@@ -45,22 +45,22 @@ a:hover {
   margin-bottom: 0; /* pタグの下部余白を縮める */
 }
 
-.about {
-  margin-bottom: 20px; /* BiographyとEducationの間の余白 */
-  border-bottom: 1px solid #ddd; /* 薄い線を追加 */
-  padding-bottom: 20px; /* 線と内容との余白 */
+.Education {
+  margin-top: 20px; /* Educationセクションの上部余白 */
+  border-top: 1px solid #f7c5d8; /* 薄いピンクの線を上部に追加 */
+  padding-top: 20px; /* 線と内容との余白 */
 }
 
-.education-item {
-  margin-top: 0; /* Educationの開始位置 */
+.yuki {
+  margin-top: 20px; /* Educationセクションの上部余白 */
+  border-top: 1px solid #f7c5d8; /* 薄いピンクの線を上部に追加 */
+  padding-top: 20px; /* 線と内容との余白 */
 }
 
-/* プロフィール用のスタイル */
-.田中柚希 p {
-  line-height: normal; /* 行間の設定をデフォルトに */
-  margin-top: 0; /* 上部余白を無くす */
-  margin-bottom: 0; /* 下部余白を無くす */
-}
+
+
+
+
 
 
 
