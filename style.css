@@ -29,7 +29,7 @@ h1, h2 {
 }
 
 .tight-line-spacing {
-  line-height: 1.2; /* 行間を縮める */
+  line-height: 1.1; /* 行間を縮める */
   margin-bottom: 8px; /* 段落間のスペースを調整 */
 }
 
