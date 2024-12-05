@@ -27,12 +27,6 @@ h1, h2 {
   margin: 0;
   color: #5c2b45;
 }
-
-.tight-line-spacing {
-  line-height: 1.1; /* 行間を縮める */
-  margin-bottom: 8px; /* 段落間のスペースを調整 */
-}
-
 a {
   color: #e74c3c;
   text-decoration: none;
