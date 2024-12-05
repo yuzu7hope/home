@@ -33,7 +33,7 @@ header {
 }
 
 .header-with-bg {
-  background-image: url('flower2.jpg'); /* GitHubにホストされた画像のURL */
+  background-image: url(flower2.jpg); /* GitHubにホストされた画像のURL */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
