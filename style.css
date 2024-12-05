@@ -31,7 +31,10 @@ a:hover {
 header {
   padding: 0;
   margin: 0;
-  text-align: center;
+  width: 100%; /* 画面幅全体を使う */
+  display: flex;
+  justify-content: center; /* 横方向で中央揃え */
+  align-items: center; /* 縦方向で中央揃え */
 }
 
 .header-with-bg {
@@ -39,15 +42,21 @@ header {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  width: 100%; /* 幅を100%にして画面いっぱいに画像を広げる */
+  height: 100%; /* 高さを100%にして画像がヘッダーの高さにぴったり合う */
   height: 50vh;
   color: white;
   padding: 20px;
+  display: flex;
+  justify-content: center; /* テキストを中央に配置 */
+  align-items: center; /* テキストを中央に配置 */
 }
 
 .header-content h1, .header-content h2 {
   margin: 0;
   color: #4e2a1f; /* 濃い茶色の色コード */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  text-align: center;
 }
 
 html, body {
